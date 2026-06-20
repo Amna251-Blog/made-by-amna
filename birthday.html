@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Birthday Surprise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active" id="p1">
+
+<div class="container">
+
+<div class="card">
+<img src="image.jpeg">
+<p>Happy Birthday ❤️</p>
+</div>
+
+<div class="lock">
+
+❤️
+<br><br>
+
+ENTER PASSWORD
+
+<div class="code">
+<input maxlength="1">
+<input maxlength="1">
+<input maxlength="1">
+<input maxlength="1">
+</div>
+
+<button onclick="unlock()">Open</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="p2">
+<h1>04/01/27</h1>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="p3">
+
+<div class="loader">
+<h2>Hey birthday 🎂</h2>
+<br>
+Loading your birthday surprise...
+
+<div class="bar">
+<div class="fill"></div>
+</div>
+
+</div>
+
+</div>
+
+<!-- PAGE 4 FINAL -->
+<div class="page final" id="p4">
+
+<div id="fireworks-container">
+
+<canvas id="fireworks"></canvas>
+
+<h1>❤️ HAPPY BIRTHDAY ❤️</h1>
+<p class="main-text">
+Today is all about celebrating you ✨<br>
+May your day be filled with love,<br> happiness,
+beautiful memories, and endless smiles 🎂🎁
+</p>
+
+</div>
+
+</div>
+
+<!-- MUSIC -->
+<audio id="music" loop>
+<source src="birthday.mp3">
+</audio>
+  
+<script src="script.js"></script>
+
+</body>
+</html>
